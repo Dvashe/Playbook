@@ -1,8 +1,13 @@
-class Pokemon {
+class Pokemon{
     constructor(Pokemon){
-        this.Pokemon = 
-        sayHello = () =>{
-         `Mi pokémon ${Pokemon} te saluda`
-        }
+      this.Pokemon= Pokemon   
+    }
+
+    sayHello(){
+       return console.log(`Mi pokemon ${this.Pokemon} te saluda!!!`)
+    }
+    sayMessage(message){
+        return console.log(`Mi pokemon ${this.Pokemon} dice:` + message)
     }
 }
+module.exports = Pokemon;

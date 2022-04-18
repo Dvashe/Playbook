@@ -1,4 +1,4 @@
-const Pokemon = require('./pokemon')
+const Pokemon = require("./pokemon")
 
 const pikachu = new Pokemon("pikachu")
 const bulbasaur = new Pokemon("bulbasaur")
@@ -16,3 +16,4 @@ charmander.sayMessage("Heey!")
 
 squirtle.sayHello()
 squirtle.sayMessage("Heey!")
+
